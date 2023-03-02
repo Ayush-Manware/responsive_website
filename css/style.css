@@ -1,0 +1,336 @@
+body {
+    font-family: 'Alata', sans-serif;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.962);
+}
+
+/* icon */
+.icon img {
+    width: 70px;
+    height: 70px;
+    transform: rotate(90deg);
+}
+
+/* Navigation bar */
+.navbar {
+    margin-top: 2px;
+    position: relative;
+    z-index: 3px;
+    background-color: rgb(12, 14, 14);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_links {
+    color: white;
+    margin: 18px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.tutorials {
+    position: relative;
+}
+
+.nav_dropdown {
+    position: absolute;
+    top: 20px;
+    display: none;
+    width: 120px;
+    padding: 18px;
+    backdrop-filter: blur(15px);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .25);
+}
+
+.tutorials:hover>.nav_dropdown {
+    display: block;
+}
+
+.nav_dropdown>ul>li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.nav_dropdown>ul>li:hover {
+    border-left: 4px solid rgb(255, 255, 255);
+    transition: ease-in-out 0.3s;
+    padding-left: 3px;
+}
+
+.drop_list {
+    text-decoration: none;
+    color: rgb(0, 187, 255);
+}
+
+.tutorials:hover .nav_links {
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+    transition: 0.3s all;
+    color: rgba(0, 255, 255, 0.5);
+}
+
+.references {
+    position: relative;
+}
+
+.references:hover .nav_links {
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+    transition: 0.3s all;
+    color: rgba(0, 255, 255, 0.5);
+}
+
+.references:hover>.nav_dropdown {
+    display: block;
+}
+
+.exercises {
+    position: relative;
+}
+
+.exercises:hover .nav_links {
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+    transition: 0.3s all;
+    color: rgba(0, 255, 255, 0.5);
+}
+
+.exercises:hover>.nav_dropdown {
+    display: block;
+}
+
+.sign_up:hover a {
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+    transition: 0.3s all;
+    color: rgba(0, 255, 255, 0.5);
+}
+
+.nav_1 {
+    display: flex;
+    align-items: center;
+}
+
+.get_certified {
+    background-color: rgb(0, 255, 255);
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    margin: 3px;
+}
+
+.get_certified>a {
+    color: black;
+}
+
+.get_certified:hover {
+    background-color: rgba(104, 238, 238, 0.741);
+    transition: 0.2s all;
+    box-shadow: 2px 2px 5px rgba(2, 2, 2, 0.659);
+    transition: all 0.2s;
+}
+
+.get_certified:hover a {
+    color: white;
+}
+
+.create_website {
+    background-color: rgb(0, 255, 255);
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    margin: 3px;
+}
+
+.create_website>a {
+    color: black;
+}
+
+.create_website:hover {
+    background-color: rgba(104, 238, 238, 0.741);
+    transition: 0.2s all;
+    box-shadow: 2px 2px 5px rgba(2, 2, 2, 0.659);
+}
+
+.create_website:hover a {
+    color: white;
+}
+
+.log_in:hover a {
+    color: rgba(0, 255, 255, 0.5);
+    transition: 0.2s all;
+}
+
+.menu {
+    color: white;
+    margin: 10px;
+    display: none;
+}
+
+/* banner */
+.banner {
+    text-align: center;
+    background-color: black;
+    padding: 50px;
+}
+
+.banner>h1 {
+    color: white;
+    font-size: 60px;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 7px;
+    margin-bottom: 20px;
+}
+
+.banner>p {
+    color: aqua;
+    font-size: 25px;
+    /* border: 1px solid black; */
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+form>input {
+    width: 300px;
+    border: none;
+    /* border-bottom-left-radius: 30px; */
+    border-top-left-radius: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+form>.search_btn {
+    border: none;
+    border-bottom-right-radius: 30px;
+    /* border-top-right-radius: 30px; */
+    padding: 20px;
+    background-color: aqua;
+}
+
+.banner>.banner_link {
+    padding: 10px;
+    margin: 10px;
+}
+
+.banner>.banner_link a {
+    color: white;
+    font-size: 20px;
+}
+
+.banner>.banner_link a:hover {
+    color: rgb(0, 255, 255);
+    text-shadow: 3px 3px 3px black;
+}
+
+/* body container-2 */
+
+.body_container_2{
+    color: white;
+    display:flex;   
+    padding: 20px; 
+}
+.body_container_2 > .div1{
+    text-align: center;
+    display: grid;
+}
+.div1> a> .button{
+      width: 200px;
+      margin: 20px;
+      padding: 15px;
+      background-color: rgba(0, 255, 255, 0.853);
+      font-size: 18px;
+      font-family:'Times New Roman', Times, serif;
+}
+.div1> a:hover button{
+    background-color: black;
+    color: grey;
+    transition: all 0.3s;
+}
+.body_container_2> .div1> h3{
+    font-size: 50px;
+    margin: 20px;
+    letter-spacing: 5px;
+}
+.body_container_2 > .div2{
+    border: 1px solid rgb(29, 29, 29);
+    width: 430px;
+}
+ .div2> h3{
+    font-size: 30px;
+    margin: 20px;
+    letter-spacing: 5px;  
+}
+.structure_div{
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 17px;
+}
+.button_div{
+    margin: 10px;
+}
+.button_div_button{
+    background-color: rgba(0, 254, 38, 0.711);
+    color: black;
+    width: 200px;
+    padding: 12px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/* footer */
+footer{
+    background-color:  rgba(20, 20, 20, 0.962);
+    padding: 10px;
+}
+.footer_icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footer_icon img{
+    padding: 5px;
+    border: 2px solid white;
+    transform: rotate(90deg);
+    width: 50px;
+    height: 50px;
+}
+.footer_tabs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_button{
+    width: 250px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size:15px;
+    padding: 15px; 
+    color: gray;
+    background-color: rgba(0, 0, 0, 0.856);
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer_button:hover{
+   color: white;
+}
+.footer_icon_container{
+        text-align: right;
+        letter-spacing: 15px;
+        margin-top:10px;
+}
+.footer_para{
+    color: rgba(255, 255, 255, 0.822);
+    text-align: center;
+    font-size:10px;
+    margin: 10px;
+    letter-spacing: 2px;
+}
+.footer_icons a{
+    color: white;
+}
+.footer_icons a:hover{
+    color: rgb(31, 13, 229);
+}
+

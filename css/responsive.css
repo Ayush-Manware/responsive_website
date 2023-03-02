@@ -1,0 +1,23 @@
+@media screen and (max-width:950px) {
+  .nav_1 {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+  .footer_tabs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_para{
+  text-align: center;
+}
+}
+
+@media screen and (min-width:950px) {
+  * {
+    margin: 0 auto;
+    padding: 0px;
+  }
+}

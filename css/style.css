@@ -280,12 +280,12 @@ form>.search_btn {
     width: 200px;
     padding: 12px;
     font-size: 18px;
-    font-weight:bolder;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
 }
 .btn_001:hover {
     color: white;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid aqua;
 }
 
                                            /* body container-2 */
@@ -353,13 +353,68 @@ form>.search_btn {
     width: 200px;
     padding: 12px;
     font-size: 18px;
-    font-weight:bolder;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
 }
 .btn_002:hover {
     color: white;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid aqua;
 }
+
+
+                                          /* Medium Containers */
+.body_container_4{
+    display: flex;
+    justify-content: space-around; 
+    color: white;
+    margin: 20px;
+}
+.medium_containers{
+    border: 1px solid grey;
+    background-color: black;
+    padding: 20px;
+    display: block;
+    justify-content: center;
+    width: 500px;
+}
+
+.medium_containers:hover> h1{
+    color: white;
+    transition: all 0.2s;
+}
+.medium_containers > h1{
+    font-size: 70px;
+    letter-spacing: 7px;
+    color: grey;
+    text-align: center;
+    margin: 5px;
+}
+.medium_containers > p{
+    font-size: 20px;
+    color: grey;
+    margin-top: 25px;
+    text-align: center;
+}
+.m_container_btn{
+    display: block;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    /* padding-right: 10px; */
+    border: 2px solid grey;
+    color: grey;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.m_container_btn:hover{
+    border: 2px solid aqua;
+    color: white;     
+    transition: all 0.2s;
+}
+
+
+
 
                                                  /* footer */
 footer{

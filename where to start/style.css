@@ -230,6 +230,7 @@ body {
     border-radius: 30px;
     width: 150px;
     background-color: rgba(0, 255, 255, 0.852);
+    border: none;
 }
 
 .div2>.btn a {

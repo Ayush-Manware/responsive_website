@@ -33,6 +33,16 @@ footer{
   margin-right: auto;
   width: 100%;
 }
+.body_container_4{
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.m_container_btn{
+  display: block;
+  justify-content: center;
+}
+
 }
 @media screen and (max-width:565px){
   form>input {

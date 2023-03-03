@@ -25,6 +25,14 @@ footer{
   margin-right: auto;
   width: 100%;
 }
+.body_container_3{
+  display: block;
+}
+.body_container_3 >.div2{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 }
 @media screen and (max-width:565px){
   form>input {

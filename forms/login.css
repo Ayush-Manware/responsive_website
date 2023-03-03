@@ -25,7 +25,7 @@ body {
 .navbar {
     margin-top: 2px;
     position: relative;
-    z-index: 3px;
+    z-index: 2;
     background-color: rgb(12, 14, 14);
     display: flex;
     align-items: center;
@@ -268,7 +268,7 @@ footer{
     color: white;
 }
 .footer_icons a:hover{
-    color: rgb(31, 13, 229);
+    color: aqua;
 }
 @media screen and (max-width:950px) {
     .nav_1 {
@@ -293,7 +293,8 @@ footer{
         margin-right: auto
     }
     .footer_tabs{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
     }
     footer{
         margin-left: auto;

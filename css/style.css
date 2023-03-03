@@ -14,12 +14,14 @@ body {
 /* Navigation bar */
 .navbar {
     margin-top: 2px;
-    position: relative;
+    position: sticky;
+    top: 1px;
     z-index: 3px;
     background-color: rgb(12, 14, 14);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow:5px 5px 9px black;
 }
 
 .nav_links {
@@ -169,6 +171,8 @@ body {
     text-align: center;
     background-color: black;
     padding: 50px;
+    margin: 25px;
+    box-shadow:5px 5px 9px black;
 }
 
 .banner>h1 {
@@ -241,9 +245,10 @@ form>.search_btn {
       font-size: 18px;
       font-family:'Times New Roman', Times, serif;
 }
-.div1> a:hover button{
+.div1 a:hover button{
     background-color: black;
     color: grey;
+    border: 1px solid white;
     transition: all 0.3s;
 }
 .body_container_2> .div1> h3{

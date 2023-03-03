@@ -3,12 +3,12 @@ body {
 }
 
 .main {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     width: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 2px solid black;
     padding: 20px;
     background-color: rgb(12, 14, 14);
     color: white;
@@ -41,9 +41,12 @@ body {
 
 .nav_dropdown {
     position: absolute;
-    top: 20px;
+    top: 10px;
+    right: 100%;
     display: none;
-    width: auto;
+    width: 120px;
+    padding: 18px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .25);
 }
 
 .drop_list {
@@ -61,18 +64,16 @@ body {
     flex-direction: row;
 }
 
-.nav_dropdown>ul>li {
+.nav_dropdown>li {
     list-style-type: none;
     text-align: center;
-    backdrop-filter: blur(15px);
     box-shadow: 8px 8px 15px rgba(0, 0, 0, .25);
-    padding: 7px;
+    padding: 15px;
 }
 
-.nav_dropdown>ul>li:hover {
-    border-left: 4px solid rgb(255, 255, 255);
+.nav_dropdown>li:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
     transition: ease-in-out 0.3s;
-    padding-left: 3px;
 }
 
 .tutorials:hover .nav_links {
@@ -91,7 +92,8 @@ body {
 }
 
 .references:hover>.nav_dropdown {
-    display: block;
+    display: flex;
+    flex-direction: row;
 }
 
 .exercises {
@@ -105,13 +107,8 @@ body {
 }
 
 .exercises:hover>.nav_dropdown {
-    display: block;
-}
-
-.sign_up:hover a {
-    text-shadow: 4px 4px 2px rgb(0, 0, 0);
-    transition: 0.3s all;
-    color: rgba(0, 255, 255, 0.5);
+    display: flex;
+    flex-direction: row;
 }
 
 .get_certified {
@@ -124,6 +121,7 @@ body {
 
 .get_certified>a {
     color: black;
+    font-size: 16px;
 }
 
 .get_certified:hover {
@@ -147,6 +145,7 @@ body {
 
 .create_website>a {
     color: black;
+    font-size: 16px;
 }
 
 .create_website:hover {

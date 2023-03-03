@@ -20,6 +20,203 @@ body{
         margin-right: auto;
     }
 }
+@media screen and (max-width:950px) {
+    .nav_1 {
+      display: none;
+    }
+  
+    .menu {
+      display: block;
+    }
+    .footer_tabs{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .footer_para{
+    text-align: center;
+  }
+  footer{
+    margin-right: auto;
+    margin-left:auto;
+  }
+  .body_container_2{
+    display: block;
+  }
+  .body_container_2 >.div2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  }
+  @media screen and (max-width:565px){
+    form>input {
+      width: 200px;
+    }
+  }
+
+/* icon */
+.icon img {
+    width: 70px;
+    height: 70px;
+    transform: rotate(90deg);
+}
+
+/* Navigation bar */
+.navbar {
+    margin-top: 2px;
+    position: sticky;
+    top: 1px;
+    z-index: 1;
+    background-color: rgb(12, 14, 14);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow:5px 5px 9px black;
+}
+
+.nav_links {
+    color: white;
+    margin: 18px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.tutorials {
+    position: relative;
+}
+
+.nav_dropdown {
+    position: absolute;
+    top: 15px;
+    display: none;
+    width: 120px;
+    padding: 18px;
+    backdrop-filter: blur(15px);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .25);
+}
+
+.tutorials:hover>.nav_dropdown {
+    display: block;
+}
+
+.nav_dropdown>li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.nav_dropdown>li:hover {
+    border-left: 4px solid rgb(255, 255, 255);
+    transition: ease-in-out 0.3s;
+    padding-left: 3px;
+}
+
+.drop_list {
+    text-decoration: none;
+    color: rgb(0, 187, 255);
+}
+
+.tutorials:hover .nav_links {
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+    transition: 0.3s all;
+    color: rgba(0, 255, 255, 0.5);
+}
+
+.references {
+    position: relative;
+}
+
+.references:hover .nav_links {
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+    transition: 0.3s all;
+    color: rgba(0, 255, 255, 0.5);
+}
+
+.references:hover>.nav_dropdown {
+    display: block;
+}
+
+.exercises {
+    position: relative;
+}
+
+.exercises:hover .nav_links {
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+    transition: 0.3s all;
+    color: rgba(0, 255, 255, 0.5);
+}
+
+.exercises:hover>.nav_dropdown {
+    display: block;
+}
+
+.sign_up:hover a {
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+    transition: 0.3s all;
+    color: rgba(0, 255, 255, 0.5);
+}
+
+.nav_1 {
+    display: flex;
+    align-items: center;
+    margin-right:50px;
+}
+
+.get_certified {
+    background-color: rgb(0, 255, 255);
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    margin: 3px;
+}
+
+.get_certified>a {
+    color: black;
+}
+
+.get_certified:hover {
+    background-color: rgba(104, 238, 238, 0.741);
+    transition: 0.2s all;
+    box-shadow: 2px 2px 5px rgba(2, 2, 2, 0.659);
+    transition: all 0.2s;
+}
+
+.get_certified:hover a {
+    color: white;
+}
+
+.create_website {
+    background-color: rgb(0, 255, 255);
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    margin: 3px;
+}
+
+.create_website>a {
+    color: black;
+    font-size: 16px;
+}
+
+.create_website:hover {
+    background-color: rgba(104, 238, 238, 0.741);
+    transition: 0.2s all;
+    box-shadow: 2px 2px 5px rgba(2, 2, 2, 0.659);
+}
+
+.create_website:hover a {
+    color: white;
+}
+
+.log_in:hover a {
+    color: rgba(0, 255, 255, 0.5);
+    transition: 0.2s all;
+}
+
+.menu {
+    color: white;
+    margin: 10px;
+    display: none;
+}
    .div1{
     text-align: center;
     padding: 10px;

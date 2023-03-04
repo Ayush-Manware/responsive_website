@@ -5,13 +5,19 @@ body {
 }
 
 /* icon */
+
+
 .icon img {
     width: 70px;
     height: 70px;
     transform: rotate(90deg);
 }
 
+
 /* Navigation bar */
+
+
+
 .navbar {
     margin-top: 2px;
     position: sticky;
@@ -65,20 +71,8 @@ body {
     color: rgb(0, 187, 255);
 }
 
-.tutorials:hover .nav_links {
-    text-shadow: 4px 4px 2px rgb(0, 0, 0);
-    transition: 0.3s all;
-    color: rgba(0, 255, 255, 0.5);
-}
-
 .references {
     position: relative;
-}
-
-.references:hover .nav_links {
-    text-shadow: 4px 4px 2px rgb(0, 0, 0);
-    transition: 0.3s all;
-    color: rgba(0, 255, 255, 0.5);
 }
 
 .references:hover>.nav_dropdown {
@@ -87,12 +81,6 @@ body {
 
 .exercises {
     position: relative;
-}
-
-.exercises:hover .nav_links {
-    text-shadow: 4px 4px 2px rgb(0, 0, 0);
-    transition: 0.3s all;
-    color: rgba(0, 255, 255, 0.5);
 }
 
 .exercises:hover>.nav_dropdown {
@@ -111,51 +99,53 @@ body {
 }
 
 .get_certified {
-    background-color: rgb(0, 255, 255);
     padding: 5px;
-    border: none;
-    border-radius: 20px;
+    border-top: 5px solid grey;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     margin: 3px;
 }
 
 .get_certified>a {
-    color: black;
+    color:grey;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .get_certified:hover {
-    background-color: rgba(104, 238, 238, 0.741);
+    background-color: rgb(63, 247, 247);
     transition: 0.2s all;
     box-shadow: 2px 2px 5px rgba(2, 2, 2, 0.659);
-    transition: all 0.2s;
+    transition: all 1s;
 }
-
-.get_certified:hover a {
-    color: white;
+.get_certified:hover a{
+    color: black;
 }
-
-.create_website {
-    background-color: rgb(0, 255, 255);
+.create_website{
     padding: 5px;
-    border: none;
-    border-radius: 20px;
+    border-top: 5px solid grey;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     margin: 3px;
 }
 
 .create_website>a {
-    color: black;
-    font-size: 16px;
+    color: grey;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .create_website:hover {
-    background-color: rgba(104, 238, 238, 0.741);
+    background-color: rgb(63, 247, 247);
     transition: 0.2s all;
     box-shadow: 2px 2px 5px rgba(2, 2, 2, 0.659);
+    transition: all 1s;
 }
-
-.create_website:hover a {
-    color: white;
+.create_website:hover> a{
+    color: black;
 }
-
 .log_in:hover a {
     color: rgba(0, 255, 255, 0.5);
     transition: 0.2s all;
@@ -167,7 +157,10 @@ body {
     display: none;
 }
 
-                                                    /* banner */
+
+    /* banner */
+
+
 .banner {
     text-align: center;
     background-color: black;
@@ -224,7 +217,10 @@ form>.search_btn {
     text-shadow: 3px 3px 3px black;
 }
 
-                                         /* body container-2 */
+
+
+ /* body container-2 */
+
 
 .body_container_2{
     color: white;
@@ -288,7 +284,12 @@ form>.search_btn {
     border: 3px solid aqua;
 }
 
-                                           /* body container-2 */
+
+
+   /* body container-2 */
+
+
+
 .body_container_3{
     color: white;
     display:flex;   
@@ -362,61 +363,74 @@ form>.search_btn {
 }
 
 
-                                          /* Medium Containers */
+  /* Medium Containers */
+
+
+
 .body_container_4{
     display: flex;
-    justify-content: space-around; 
-    color: white;
-    margin: 20px;
-}
-.medium_containers{
-    border: 1px solid grey;
-    background-color: black;
-    padding: 20px;
-    display: block;
     justify-content: center;
-    width: 500px;
+    align-items: center;
+    margin: 10px;
 }
-
-.medium_containers:hover> h1{
-    color: white;
-    transition: all 0.2s;
-}
-.medium_containers > h1{
-    font-size: 70px;
-    letter-spacing: 7px;
+.body_container_4 .div1{
+    text-align: center; 
     color: grey;
-    text-align: center;
-    margin: 5px;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.962);
 }
-.medium_containers > p{
+.body_container_4 .div1:hover{
+    border-bottom: 4px solid grey;
+}
+.body_container_4 .div1> h1{
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+.body_container_4 .div1> p{
     font-size: 20px;
-    color: grey;
-    margin-top: 25px;
-    text-align: center;
+    margin: 10px;
+    letter-spacing: 1px;
 }
 .m_container_btn{
-    display: block;
-    justify-content: center;
-    margin-top: 25px;
-    font-size: 20px;
-    padding: 10px 30px 10px 30px;
-    /* padding-right: 10px; */
-    border: 2px solid grey;
-    color: grey;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 5px 20px 5px 20px;
     background-color: black;
-    font-family: 'Times New Roman', Times, serif; 
+    color:white;
+    border: 1px solid grey;
 }
 .m_container_btn:hover{
-    border: 2px solid aqua;
-    color: white;     
-    transition: all 0.2s;
+    border: 1px solid aqua;
 }
 
 
 
+/* GIF */
 
-                                                 /* footer */
+
+
+.gif{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+.gif p{
+    font-size: 60px;
+    margin: 40px;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+.gif img{
+    width: 900px;
+    height: auto;
+}
+
+
+ /* footer */
+
+
+
 footer{
     background-color:  rgba(20, 20, 20, 0.962);
     padding: 10px;
@@ -424,7 +438,6 @@ footer{
 .footer_icon{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 .footer_icon img{
     padding: 5px;

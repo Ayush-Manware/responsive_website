@@ -33,17 +33,24 @@ footer{
   margin-right: auto;
   width: 100%;
 }
-.body_container_4{
+.body_container_4 {
   display: block;
-  justify-content: center;
-  align-items: center;
 }
-.m_container_btn{
-  display: block;
-  justify-content: center;
+.body_container_4> .div1{
+  margin-bottom: 10px;
+  border-bottom: 4px solid grey;
+}
+.body_container_4 .div1:hover{
+  color: white;
+}
+.gif img{
+  width: 100%;
+  height: auto;
 }
 
+
 }
+
 @media screen and (max-width:565px){
   form>input {
     width: 200px;
@@ -54,4 +61,5 @@ footer{
     margin: 0 auto;
     padding: 0px;
   }
+  
 }

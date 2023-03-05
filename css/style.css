@@ -160,10 +160,25 @@ body {
 
     /* banner */
 
-
+    @keyframes example {
+        0%{background-color:rgba(19, 19, 19, 0.962);}
+        10%{background-color: black;}
+        20%{background-color: rgba(19, 19, 19, 0.962);}
+        30%{background-color: black;}
+        40%{background-color: rgba(19, 19, 19, 0.962);}
+        50%{background-color:rgba(19, 19, 19, 0.962);}
+        60%{background-color: black;}
+        70%{background-color: rgba(19, 19, 19, 0.962);}
+        80%{background-color: black;}
+        90%{background-color: rgba(19, 19, 19, 0.962);}
+        100%{background-color: black;}
+      } 
 .banner {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
     text-align: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.962);
     padding: 50px;
     margin-top: 30px;
     box-shadow:5px 5px 9px black;

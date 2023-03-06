@@ -97,54 +97,26 @@ body {
     display: flex;
     align-items: center;
 }
-
-.get_certified {
-    padding: 5px;
-    border-top: 5px solid grey;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin: 3px;
-}
-
-.get_certified>a {
-    color:grey;
-    font-size: 18px;
-    letter-spacing: 1px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.get_certified:hover {
-    background-color: rgb(63, 247, 247);
-    transition: 0.2s all;
-    box-shadow: 2px 2px 5px rgba(2, 2, 2, 0.659);
-    transition: all 1s;
-}
-.get_certified:hover a{
-    color: black;
-}
 .create_website{
     padding: 5px;
-    border-top: 5px solid grey;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 3px;
 }
 
 .create_website>a {
+    font-size: 22px;
     color: grey;
-    letter-spacing: 1px;
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
 }
 
 .create_website:hover {
-    background-color: rgb(63, 247, 247);
-    transition: 0.2s all;
-    box-shadow: 2px 2px 5px rgba(2, 2, 2, 0.659);
-    transition: all 1s;
+    color: white;
+    transition: all 0.2s;
+    text-decoration: aqua overline;
 }
 .create_website:hover> a{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .log_in:hover a {
     color: rgba(0, 255, 255, 0.5);
@@ -160,23 +132,7 @@ body {
 
     /* banner */
 
-    @keyframes example {
-        0%{background-color:rgba(19, 19, 19, 0.962);}
-        10%{background-color: black;}
-        20%{background-color: rgba(19, 19, 19, 0.962);}
-        30%{background-color: black;}
-        40%{background-color: rgba(19, 19, 19, 0.962);}
-        50%{background-color:rgba(19, 19, 19, 0.962);}
-        60%{background-color: black;}
-        70%{background-color: rgba(19, 19, 19, 0.962);}
-        80%{background-color: black;}
-        90%{background-color: rgba(19, 19, 19, 0.962);}
-        100%{background-color: black;}
-      } 
 .banner {
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.962);
     padding: 50px;

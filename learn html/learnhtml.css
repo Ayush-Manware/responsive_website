@@ -1,0 +1,98 @@
+body{
+    background-color: rgba(0, 0, 0, 0.962);
+}
+nav{
+    background-color: rgb(12, 14, 14);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow:5px 5px 9px black;
+    font-family: 'Alata', sans-serif;
+}
+
+.icon img{
+    width: 70px;
+    height: auto;
+    transform: rotate(90deg);
+    margin-inline: 10px;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_head {
+    margin-inline:30px 30px;
+    position: relative;
+    gap: 20px;
+    justify-content: center;
+}
+
+.nav_head a{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.nav_head .dropdown{
+    display: none;
+    position: absolute;
+    top: 20px;
+    width: 160px;
+    backdrop-filter: blur(15px);
+    padding:10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.nav_head .dropdown a{
+    color: rgb(0, 187, 255);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav_head .dropdown:hover {
+    transition: all 0.1s;
+    color: white;
+}
+
+.nav_head .dropdown a:hover {
+    color: white;
+    border-left: 2px solid white;
+}
+
+.nav_head:hover> .dropdown{
+    display: block;
+}
+
+.nav3{
+    display: flex;
+    gap: 20px;
+    margin-inline: 5px;
+}
+
+.nav3 .div1{
+    font-family: 'Times New Roman', Times, serif;
+    padding-inline: 10px;
+}
+
+.nav3 .div1 a{
+    font-size: 22px;
+    color: grey;
+    text-decoration: none;
+}
+
+.nav3 .div1 a:hover{
+    color: white;
+    transition: all 0.2s;
+    text-decoration: aqua overline;
+}
+
+.second_nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: ;
+}

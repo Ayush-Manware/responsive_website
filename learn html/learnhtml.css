@@ -93,6 +93,56 @@ nav{
 .second_nav{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    background-color: ;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 10px;
+    gap: 20px;
+    font-weight: bolder;
 }
+
+.second_nav .container{
+    display: flex;
+    gap: 15px;
+}
+
+.second_nav .container a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.second_nav .container a:hover{
+    text-decoration: overline;
+}
+
+.second_nav .div2{
+    font-size: 18px;
+    margin-inline: 10px;
+}
+
+.sidebar{
+    width: 17%;
+    background-color: rgb(26, 27, 27);
+    position: fixed;
+    top: 125px;
+    left: 8px;
+    overflow: scroll;
+    height: 540px;
+}
+
+.sidebar h1{
+    font-size: 23px;
+    padding-inline: 10px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: white;
+}
+
+.sidebar a{
+    display: block;
+    padding: 1px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+

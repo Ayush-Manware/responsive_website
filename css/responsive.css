@@ -1,8 +1,11 @@
 @media screen and (max-width:950px) {
+  
+  .bubble1{
+    display: none;
+  }
   .nav_1 {
     display: none;
   }
-
   .menu {
     display: block;
   }

@@ -1,12 +1,13 @@
 body{
     background-color: rgba(0, 0, 0, 0.962);
+    position: relative;
 }
 nav{
     background-color: rgb(12, 14, 14);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow:5px 5px 9px black;
+    box-shadow:5px 5px 12px black;
     font-family: 'Alata', sans-serif;
 }
 
@@ -40,6 +41,7 @@ nav{
 .nav_head .dropdown{
     display: none;
     position: absolute;
+    z-index: 2;
     top: 20px;
     width: 160px;
     backdrop-filter: blur(15px);
@@ -128,47 +130,130 @@ nav{
     border-radius: 10px 10px 0px 10px;
 }
 
-.sidebar {
-    display: flex;
-    gap: 10px;
-}
-
-.sidebar .div1{
+.sidebar{
+    overflow-y:scroll;
     height: 550px;
-    width: 250px;
-    overflow-y: scroll;
-    padding-inline:5px;
+    position: sticky;
+    top: 0px;  
+    border-right:1px solid grey;
+    width: 20%;
 }
 
-.sidebar .div1 h1{
+.sidebar h1{
     font-size: 23px;
     padding-inline: 10px;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: 'Tilt Neon', cursive;
     color: white;
+    letter-spacing: 2px;
 }
 
-.sidebar .div1 a{
+.sidebar a{
     display: block;
     padding: 1px 10px;
     text-decoration: none;
     font-size: 18px;
     color: white;
+    margin: 6px;
+    font-family: 'Tilt Neon', cursive;
 }
 
+::-webkit-scrollbar
+{
+    width: 8px;
+}
+ ::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,grey);
+    border-radius: 6px;
+    height: 10px;
+} 
 
-.sidebar .main{
-    border: 2px solid white;
-    width: 90%;
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,grey); 
 }
 
-.sidebar .main h1{
-    color: aliceblue;
-    font-size: 50px;
-    font-family: 'Alata', sans-serif;
+.main{
+    width: 70%;
+    float: right;
+    text-align: left;
+    padding: 20px;
+    overflow-y: scroll;
+    height: 510px;
+    border-right:1px solid grey;
+    color: rgb(207, 206, 206);
+    font-size: large;
+  
+}
+
+.main p{
+    font-size: 19px;
+}
+
+.main h1{
+    color: rgb(207, 206, 206);
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    letter-spacing: 3px;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.main .buttons{
+    display: flex;
+    gap: 350px;
+}
+
+.main .buttons :hover .btn{
+    background-color: black;
+    border-color: rgb(212, 212, 212);
+}
+
+.main .btn{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    border: 1px solid aqua;
+}
+
+.main .btn {
+    font-size: 20px;
+    text-decoration: none;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    border: 1px solid grey;
+}
+
+.main .buttons :hover a{
+    color: white;
+}
+
+.main h2{
+    font-family: 'Tilt Neon', cursive;
+    letter-spacing: 2px;
+    font-size: 26px;
+}
+
+.section3 p{
+    font-family: 'Tilt Neon', cursive;
+    font-size: 25px;
+}
+
+.base_div{
+    background-color: rgb(46, 46, 46);
+    padding: 20px;
+}
+
+.upper_div{
+    background-color: black;
+    padding: 20px;
     letter-spacing: 2px;
 }
 
-.sidebar .main .buttons{
-    display: flex;
-    justify-content: space-between;
+
+
+
+
+
+.main2{
+    color: white;
 }

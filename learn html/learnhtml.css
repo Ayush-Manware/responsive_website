@@ -48,7 +48,7 @@ nav{
 }
 
 .nav_head .dropdown a{
-    color: rgb(0, 187, 255);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -60,7 +60,7 @@ nav{
 
 .nav_head .dropdown a:hover {
     color: white;
-    border-left: 2px solid white;
+    border-left: 2px solid rgb(0, 204, 255);
 }
 
 .nav_head:hover> .dropdown{
@@ -121,24 +121,33 @@ nav{
     margin-inline: 10px;
 }
 
-.sidebar{
-    width: 17%;
-    background-color: rgb(26, 27, 27);
-    position: fixed;
-    top: 125px;
-    left: 8px;
-    overflow: scroll;
-    height: 540px;
+.second_nav .div2 a{
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 10px 10px 0px 10px;
 }
 
-.sidebar h1{
+.sidebar {
+    display: flex;
+    gap: 10px;
+}
+
+.sidebar .div1{
+    height: 550px;
+    width: 250px;
+    overflow-y: scroll;
+    padding-inline:5px;
+}
+
+.sidebar .div1 h1{
     font-size: 23px;
     padding-inline: 10px;
     font-family: Arial, Helvetica, sans-serif; 
     color: white;
 }
 
-.sidebar a{
+.sidebar .div1 a{
     display: block;
     padding: 1px 10px;
     text-decoration: none;
@@ -146,3 +155,20 @@ nav{
     color: white;
 }
 
+
+.sidebar .main{
+    border: 2px solid white;
+    width: 90%;
+}
+
+.sidebar .main h1{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+}
+
+.sidebar .main .buttons{
+    display: flex;
+    justify-content: space-between;
+}

@@ -334,7 +334,9 @@ nav {
 
 /* sec-2 */
 
-
+.sec-2{
+    margin-bottom: 40px;
+}
 .sec-2 .example {
     background-color: rgb(154, 154, 155);
     padding: 15px;
@@ -369,21 +371,15 @@ nav {
     font-size: medium;
     text-decoration: none;
 }
-.sec-2 .note{
+.note{
     border: 1px solid rgb(0, 0, 0);
     padding: 10px;
     color: black;
-    background-color: gray;
+    background-color: rgb(151, 150, 150);
     font-size: 18px;
 }
 
-.sec-3 .head-p{
-    font-size: 35px;
-}
-
 /* footer */
-
-
 
 footer {
     background-color: rgba(20, 20, 20, 0.962);

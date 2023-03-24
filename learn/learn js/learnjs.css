@@ -164,13 +164,14 @@ nav {
     /* border: 2px solid white; */
     display: flex;
     position: fixed;
-    top: 120px;
+    top: 118px;
     width: 100%;
 }
 
 .sidebar {
     /* border: 2px solid rgb(255, 0, 0); */
     width: 23%;
+    background-color: rgb(54, 70, 70);
     overflow-y: scroll;
     height: 100vh;
     padding-bottom: 110px;
@@ -186,7 +187,7 @@ nav {
 
 .sidebar>ul a {
     text-decoration: none;
-    color: gray;
+    color: white;
     font-size: 18px;
     font-weight:100;
     font-family: 'Montserrat', sans-serif;

@@ -51,8 +51,8 @@ nav {
     display: none;
     position: absolute;
     top: 20px;
-    width: 100vw;
-    height: 300px;
+    width: 12vw;
+    height: auto;
     backdrop-filter: blur(15px);
     color: azure;
     padding: 5px;
